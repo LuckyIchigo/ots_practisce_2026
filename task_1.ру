@@ -1,1 +1,12 @@
-
+def get_system_info():
+  sytem_info = {
+    "student_name" : "Селин Глеб Артемович",
+    "academic_group" : "ИВТИИбд-13",
+    "githublink" : "https://github.com/LuckyIchigo/ots_practisce_2026/edit/main/task_1.ру"
+  }
+  return system_info
+if _name_== "_main_":
+  info = get_system_info()
+  print("Информация о системе:")
+  for  key, value in info.items():
+    print(f"-{key}:{value}")
